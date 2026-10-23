@@ -1,0 +1,4 @@
+# The app lives in a subdirectory; build from there so its package.json
+# and netlify.toml (command, publish, functions, headers) are used.
+[build]
+  base = "evaluacion-predicaciones"
